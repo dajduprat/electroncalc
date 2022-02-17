@@ -1,0 +1,21 @@
+{
+  "name": "electroncalc",
+  "version": "1.0.0",
+  "description": "electron calculator",
+  "main": "build/index.js",    
+  "scripts": {
+    "build": "tsc && cp -fr src/view/ build",
+    "start": "npm run build && electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "calculator"
+  ],
+  "author": "John Duprat",
+  "license": "ISC",  
+  "dependencies": {
+    "electron": "^17.0.0",
+    "typescript": "^4.5.5"
+  }
+}
