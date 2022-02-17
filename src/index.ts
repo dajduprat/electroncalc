@@ -12,7 +12,7 @@ app.on('ready', () => {
         },
     });
     win.setMenuBarVisibility(false);
-	win.setResizable(false);
+    win.setResizable(false);
     const indexHTML = __dirname + '/view/index.html';
     win.loadFile(indexHTML);
 });
