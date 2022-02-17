@@ -1,5 +1,5 @@
-# electroncalc
-Electron calculator
+# Electron calculator
+---
 
 Simple calculator made with electronjs
 
