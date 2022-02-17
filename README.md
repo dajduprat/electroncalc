@@ -3,7 +3,7 @@ Electron calculator
 
 Simple calculator made with electronjs
 
-'''bash
+```bash
 npm run build
 npm run start
-'''
+```
